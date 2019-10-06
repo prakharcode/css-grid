@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            CSS GRIDS
+        </title>
+        <style>
+            .wrapper{
+                display: grid;
+                grid-template-columns: 70% 30%; 
+                grid-gap: 1em; 
+            }
+            .wrapper > div {
+                background: #eee; 
+                padding:1em;
+            }
+
+            .wrapper > div:nth-last-child(odd){
+                background: #ddd;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Porro adipisci magni magnam vel modi saepe molestias quia distinctio quae tenetur? 
+                Rerum nulla quod ipsum voluptates, suscipit dolorum, architecto quae ea dolor 
+                consequuntur repellendus soluta similique quam dicta sequi eum possimus a eius quo, 
+                earum porro praesentium at distinctio! Doloremque dolorum laborum ex non mollitia hic.
+                Quas alias consequuntur labore aperiam quisquam, saepe modi soluta, illum nam sint similique vero.
+                Perspiciatis doloremque et dignissimos quia corporis necessitatibus dolore repellendus enim iure!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis soluta alias ea 
+                quibusdam dolorum tempora eveniet porro excepturi, repudiandae fugiat rerum commodi, dolorem dolor
+                optio doloremque asperiores quas. Quo excepturi fugiat vel amet libero magnam, suscipit voluptas
+                vero dolores fuga maiores possimus iure incidunt laborum accusamus, ducimus voluptatum. Deleniti 
+                unde dolor quasi ab vitae saepe necessitatibus. Quia, ullam rem!
+            </div>
+
+            <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Porro adipisci magni magnam vel modi saepe molestias quia distinctio quae tenetur? 
+                Rerum nulla quod ipsum voluptates, suscipit dolorum, architecto quae ea dolor 
+                consequuntur repellendus soluta similique quam dicta sequi eum possimus a eius quo, 
+                earum porro praesentium at distinctio! Doloremque dolorum laborum ex non mollitia hic.
+                Quas alias consequuntur labore aperiam quisquam, saepe modi soluta, illum nam sint similique vero.
+                Perspiciatis doloremque et dignissimos quia corporis necessitatibus dolore repellendus enim iure!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis soluta alias ea 
+                quibusdam dolorum tempora eveniet porro excepturi, repudiandae fugiat rerum commodi, dolorem dolor
+                optio doloremque asperiores quas. Quo excepturi fugiat vel amet libero magnam, suscipit voluptas
+                vero dolores fuga maiores possimus iure incidunt laborum accusamus, ducimus voluptatum. Deleniti 
+                unde dolor quasi ab vitae saepe necessitatibus. Quia, ullam rem!
+            </div>
+        </div>
+    </body>
+</html>
